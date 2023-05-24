@@ -50,3 +50,11 @@ If you COPYing files, try to do so selectively. Only add the ones to the image w
 
 ### 4. Download less stuff
 When building docker images, it usually takes a long time downloading dependencies. Checking whether all the dependencies are really required seems to be a straightforward way to reduce building time and make failing cases.
+
+One more thing to keep in mind, is the default behaviour of your OS-level package manager. For examle, apt which is used on Ubuntu and Debian, installs “recommended” packages by default. Those are packages you don’t specify (or need) explicitly, but which are installed nevertheless because you might want to have them.
+
+You can avoid this, by adding the --no-install-recommends flag like this:
+```bash
+apt-get install -yqq --no-install-recommends $YOUR_PACKAGES
+```
+This way, you will only get the packages you asked for and their necessary requirements, reducing the download and installation time while building your Docker image.
