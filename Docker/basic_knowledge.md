@@ -58,3 +58,10 @@ You can avoid this, by adding the --no-install-recommends flag like this:
 apt-get install -yqq --no-install-recommends $YOUR_PACKAGES
 ```
 This way, you will only get the packages you asked for and their necessary requirements, reducing the download and installation time while building your Docker image.
+
+### 5. Use multi-stage builds
+Multi-stage builds can help to share intermediate image layers with your team. You’ll need to tag them right, and make sure to push them. It can pay off though!
+
+Pullable intermediate images can help to make the first developer experience more pleasant. Especially if it’s a small download instead of a long from-scratch building time.
+
+In addition, using multi-stage builds also keeps final images small and dockerfiles readable.
