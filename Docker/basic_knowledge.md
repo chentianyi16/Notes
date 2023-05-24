@@ -16,9 +16,13 @@ A dockerfile consists of a series of instructions, and each RUN or ENV or COPY w
 Also, the layers can be squashed. This operation can reduce a chain of images to a single image. It takes all changes and sums them up into a single image.
 ## Some Tips to reduce the size of docker images and speed up docker image build
 In the above sections, some concepts were introduced. According to those concepts, there are some little tricks to reduce build time and image size.
-- Avoid docker commit. By using 
+### Avoid docker commit 
+By using 
 ```shell
 docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 ```
 a container can be packaged into another docker image. Using this operation will make the docker image seriously inflated (an 8g docker became 102g after several commits). Therefore, avoid rebuilds as much as possible will keep iterations short and avoid busy waiting.
-- 
+
+### Structure Docker file
+Structure Dockerfile instructions like an invertes pyramid. As stated above, each instruction in Dockerfile results in an image layer being created. In addition, docker uses layers to reuse work, and save bandwidth. Following graph shows the main idea to design Dockerfiles
+![dockerfile design](../Images/pyramid-layers.png)
