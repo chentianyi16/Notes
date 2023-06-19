@@ -1,0 +1,17 @@
+Dear xxx,
+I hope this email finds you well.
+
+This is Tianyi CHEN，a master student graduated from the University of Manchester with Distinction and has been working as an AI engineer at a listed chip company. Deeplyinpressed by your reserach, I am writing to inquire about an opportunity of a PhD position under your supervision in 2024 intake.
+
+During my graduate studies, I have implemented and used some classical neural networks such as CNN, RNN, LSTM and Transformer etc. for CV and NLP tasks.
+
+Practically, I have been woring as an AI framework engineer at a listed chip company since February 2022, during which, I earned solid coding skills. I am responsible for writing and adapting operators for machine learning chips, maintaining the machine learning framework suiting our chips. In addition, I also incharge of maintaining speech synthesis networks and participated in the training of LLM (GPT). Besides, I conducted researches on machine learning and network security during my internship in Chinese Academy of Sciences, and performed low-rate DoS detection with machine learning technology in a project. In addition to the application of machine learning, I am also interested in cryptographic machine learning. During the internship, I participated in a machine learning project based on homomorphic encryption. In the first phase of research, we implemented an unsupervised feature selection algorithm based on homomorphic encryption, and are trying to apply homomorphic encryption schemes to deep learning models. It is worth noting that no machine learning frameworks such as pytorch or tensorflow were used in this project, and all machine learning models were implemented from the bottom up in C++. Also, I have some Java development experience. In my MSc dissertation, supervised by Prof. Uli Sattler, I implemented a wine recommendation system using Java, in which ontology was used as knowledge base. In this project, I realized the transformation from relational database to knowledge base, and queried the transformed knowledge base with OWL api and ontology reasoners. In the doctoral stage, I am planning to apply machine learning techniques to quantitative trading and fraud detection.
+ 
+As for my academic experience, I have developed an in-depth understanding of the field in computer science during my bachelor’s study. My master’s study in Advanced Computer Science (artificial intelligence) at the University of Manchester, I believe, has definitely consolidated my expertise in AI. And my skills in machine learning techniques have been enhanced through my internship in Computer Network Information Centre, Chinese Academy of Sciences from July 2021.
+ 
+Therefore, I believe that I am well-equipped with the fundamental theories and methodology required for my further study and may apply support for your research group.
+ 
+I have enclosed my CV and transcript with the email for your consideration. I look forward to hearing from you soon.
+ 
+Yours sincerely,
+Tianyi CHEN
